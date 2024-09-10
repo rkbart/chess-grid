@@ -1,0 +1,33 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8,12.5%);
+    grid-template-rows: repeat(8,12.5%);
+    border: 2px solid whitesmoke;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,.75);
+    margin: 3% auto;
+    max-width: 480px;
+	max-height: 480px;
+	width: 100vw;
+	height: 100vw; 
+    position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 150%; 
+}
+
+.box, .box-white {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.box {
+    background-color: rgba(135,50,0,.5);
+}
+
+.box-white {
+    background-color: whitesmoke;
+}
